@@ -21,8 +21,13 @@ This Django-based group chat application allows users to create and join chat ro
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/django-group-chat.git
-   cd django-group-chat
+   git clone https://github.com/nsvoriginals/PixTalk.git
 
-2.cd    
+2.cd PixTalk
+3.pip install -r requirements.txt
+4.python manage.py makemigrations
+5.python manage.py migrate
+6.python manage.py runserver
+
+After these steps open your web browser and go to http://localhost:8000 to access the application.
 
