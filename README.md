@@ -18,15 +18,33 @@ This Django-based group chat application allows users to create and join chat ro
 - **SQLite:** The default database engine for Django.
 
 ## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/nsvoriginals/PixTalk.git
 
-2.cd PixTalk
-3.pip install -r requirements.txt
-4.python manage.py makemigrations
-5.python manage.py migrate
-6.python manage.py runserver
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/nsvoriginals/PixTalk.git
+    ```
+
+2. **Change directory to PixTalk:**
+    ```bash
+    cd PixTalk
+    ```
+
+3. **Install project dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Apply database migrations:**
+    ```bash
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
+
+5. **Run the development server:**
+    ```bash
+    python manage.py runserver
+    ```
 
 After these steps open your web browser and go to http://localhost:8000 to access the application.
 
