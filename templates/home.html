@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PIXTALK </title>
+    <style>
+     body {
+            background-image: url('https://plus.unsplash.com/premium_photo-1668091148044-056cd744e64a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWVzdGhldGljJTIwc2t5fGVufDB8fDB8fHww'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #86A7FC;
+        }
+        h2 {
+            text-align: center;
+            color: #000000;
+        }
+
+        .container {
+            border: 2px solid #3498db;
+            background-color: #f4e3b2;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type=text], input[type=submit] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #3498db;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type=submit] {
+            background-color: #7FC7D9;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #2980b9;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .center {
+            text-align: center;
+            color: #000000;
+        }
+
+        .container form {
+            max-width: 400px;
+            margin: 0 auto;
+            color: #365486;
+        }
+    </style>
+</head>
+<body>
+
+<div class="center">
+    <h2>PIXTALK</h2>
+    <p class="center"><b>Talk anonymously</b></p>
+</div>
+
+<div class="container">
+    <form id="post-form" method="POST" action="checkview">
+        {% csrf_token %}
+        <label for="room_name">Room Name</label>
+        <input type="text" name="room_name" id="room_name" />
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+        <input type="submit" value="Enter Room">
+    </form>
+</div>
+
+</body>
+</html>
