@@ -4,7 +4,6 @@
 This Django-based group chat application allows users to create and join chat rooms, exchange messages, and stay connected with other users in real-time.
 
 ## Features
-- **User Authentication:** Users can create accounts, log in, and log out securely.
 - **Room Creation:** Users can create new chat rooms and set a unique name for each room.
 - **Room Joining:** Users can join existing chat rooms by entering the room name.
 - **Real-time Messaging:** Messages are updated in real-time without requiring a page refresh.
