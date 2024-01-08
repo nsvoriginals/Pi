@@ -30,9 +30,10 @@ This Django-based group chat application allows users to create and join chat ro
 
 After these steps open your web browser and go to http://localhost:8000 to access the application.
 
-![Screenshot 1](/path/to/screenshot1.png)
-*Caption for Screenshot 1*
+![Image Alt Text](outputs/output1.png)
+![Image Alt Text](outputs/output2.png)
+![Image Alt Text](outputs/outpu31.png)
+![Image Alt Text](outputs/output4.png)
 
-![Screenshot 2](outputs/output1.png)
-*Caption for Screenshot 2*
+
 
